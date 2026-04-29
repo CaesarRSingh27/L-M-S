@@ -15,7 +15,7 @@ import { toast, Slide, ToastContainer} from 'react-toastify';
 import { useAuth, useUser } from "@clerk/clerk-react";
 import {Toaster} from "react-hot-toast";
 
-const API_BASE = "https://l-m-s-nkqt.onrender.com";
+const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:4000";
 
 
 

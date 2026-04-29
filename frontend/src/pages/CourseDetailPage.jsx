@@ -18,7 +18,7 @@ import {
 import { useUser, useAuth } from "@clerk/clerk-react";
 import { courseDetailStyles } from "../assets/dummyStyles";
 
-const API_BASE = "https://l-m-s-nkqt.onrender.com";
+const API_BASE = import.meta.env.VITE_API_BASE || "http://localhost:4000";
 
 const fmtMinutes = (mins) => {
   const h = Math.floor((mins || 0) / 60);
