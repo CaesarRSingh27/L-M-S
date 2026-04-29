@@ -5,7 +5,7 @@ import { ArrowRight, Star, User } from "lucide-react";
 import { toast, Slide, ToastContainer } from "react-toastify";
 import { useAuth, useUser } from "@clerk/clerk-react";
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://l-m-s-nkqt.onrender.com";
 
 const HomeCourses = () => {
   const navigate = useNavigate();

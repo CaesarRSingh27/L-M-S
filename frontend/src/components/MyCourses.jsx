@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { Star, User, Play } from 'lucide-react';
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://l-m-s-nkqt.onrender.com";
 
 const MyCourses = () => {
         const navigate = useNavigate();
