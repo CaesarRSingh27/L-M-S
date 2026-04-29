@@ -11,7 +11,7 @@ const port = 4000;
 
 //MIDDLEWARES
 app.use(cors({
-    origin: ['https://l-m-s-1-oxk3.onrender.com/', 'https://l-m-s-2.onrender.com'],
+    origin: ['https://l-m-s-1-oxk3.onrender.com/', 'https://l-m-s-2.onrender.com', "http://localhost:5173", "http://localhost:5174"],
     credentials: true,
 }));
 app.use(express.json());
