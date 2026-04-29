@@ -3,7 +3,7 @@ import { dashboardStyles } from "../assets/dummyStyles";
 import { useState, useEffect } from "react";
 import { Users, ShoppingCart, BookMarked, BadgeIndianRupee, BookOpenText, Search } from 'lucide-react';
 
-const API_BASE = 'http://localhost:4000';
+const API_BASE = 'https://l-m-s-nkqt.onrender.com';
 const fmtCurrency = (n) => {
   if (n == null) return "₹0";
   const num = Number(n);

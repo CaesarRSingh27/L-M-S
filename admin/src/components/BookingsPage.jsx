@@ -5,7 +5,7 @@ import { useRef } from "react";
 import { useEffect } from "react";
 import {Search, User, BookOpen, BadgeIndianRupee, GraduationCap} from "lucide-react";
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://l-m-s-nkqt.onrender.com";
 
 const BookingsPage = () => {
     const [searchTerm, setSearchTerm] = useState("");

@@ -5,7 +5,7 @@ import { useNavigate} from "react-router-dom";
 import {toast, Toaster} from "react-hot-toast";
 import {Star, BookOpenText, PenLine, UserPen, Clock, ListOrdered, BadgeIndianRupee, Image as ImageIcon, Upload, Video, Plus, ChevronUp, X, ChevronDown} from "lucide-react";
 
-const API_BASE = 'http://localhost:4000';
+const API_BASE = 'https://l-m-s-nkqt.onrender.com';
 
 // formatDuration accepts either {hours, minutes} or (hours, minutes)
 const formatDuration = (a, b) => {
